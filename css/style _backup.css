@@ -1,0 +1,601 @@
+/* ++++++++++++++++++++++++++++ Temporary +++++++++++++++++++++++++++++++++++ *
+div
+{
+    outline: 1px solid black;
+}
+/* ++++++++++++++++++++++++++++ General/Body +++++++++++++++++++++++++++++++++++ */
+body
+{
+    background-color: #e0e0e0;
+    font-family: Noto Sans,Arial,sans-serif;
+    margin:0px;
+}
+/* ++++++++++++++++++++++++++++ Font-size */
+.header
+{
+font-size: 0px;
+}
+/* ++++++++++++++++++++++++++++ Header +++++++++++++++++++++++++++++++++++ */
+    .header
+    {
+        font-size: 0px;
+        background-color: white;
+    }
+        .header > div,
+        .button_style
+        {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .logo
+        {
+            background-image: url("../images/reddit-logo.png");
+            background-size: 100px;
+            background-repeat: no-repeat;
+            width: 20%;
+            height: 50px;
+        }
+        .input
+        {
+            width: 50%;
+        }
+            .input div
+            {
+                padding-left: 60px;
+                background-image: url("../images/loupe.png");
+                background-size: 25px;
+                background-repeat: no-repeat;
+                background-position:2% 40%;
+                border: 2px solid black;
+                border-radius: 5px;
+            }
+            .input div:hover
+            {
+                border-color: dodgerblue;
+            }
+                .input_field
+                {
+                    display: block;
+                    width: 100%;
+                    height: 30px;
+                    border: none;
+                    background: none;
+                }
+        .login_buttons
+        {
+            width: 29%;
+            text-align: right;
+            margin-right: 1%;
+        }
+            .button_style
+            {
+                font-size: 23px;
+                width: 100px;
+                text-align: center;
+                margin: 2px;
+                text-decoration: none;
+            }
+            .button_style a
+            {
+                opacity: 75%;
+                border-radius: 15px;
+                text-decoration: none;
+            }
+            .button_style a:hover
+            {
+                opacity: 100%;
+            }
+            .button_style1 a
+            {
+                color: #0079d3;
+                outline: #0079d3;
+                border: 2px solid #0079d3;
+            }
+            .button_style2 a
+            {
+                color: white;
+                background-color: #5e9dc5;
+                outline: #0079d3;
+                border: 2px solid #0079d3;
+            }
+            .button_style2 a:hover
+            {
+                background-color: #0079d3;
+            }
+        .user
+        {
+            display: inline-block;
+            width:7%
+        }
+        .user_image
+        {
+            margin-left: 1%;
+            background-image: url("../images/user icon.png");
+            background-size: 40px;
+            background-repeat: no-repeat;
+            height: 30px;
+        }
+        .user_image:hover
+        {
+            border: 1px solid #0079d3;
+            border-radius: 10px;
+        }
+/* ++++++++++++++++++++++++++++ Main +++++++++++++++++++++++++++++++++++ */
+    .main
+    {
+        max-width: 65%;
+        margin: 0 auto;
+    }
+        .story
+        {
+            margin-top: 20px;
+            width: 100%;
+            background-color: #cfcccc;
+            font-size: 0px;
+        }
+            .interact
+            {
+                display: inline-block;
+                vertical-align: middle;
+                text-align: center;
+                font-size: 20px;
+                width: 10%;
+            }
+                .like
+                {
+                    display: inline-block;
+                    margin-top: 5px;
+                    width: 40px;
+                    height: 40px;
+                    background-image: url("../images/like.png");
+                    background-size: 40px;
+                }
+                .liked
+                {
+                    background-image: url("../images/liked.png");
+                }
+                .dislike
+                {
+                    display: inline-block;
+                    margin-top: 5px;
+                    width: 40px;
+                    height: 40px;
+                    background-image: url("../images/dislike.png");
+                    background-size: 40px;
+                }
+                .disliked
+                {
+                    background-image: url("../images/disliked.png");
+                }
+                .disliked_text,
+                .liked_text
+                {
+                    font-size: 15px;
+                }
+                .like:hover,
+                .dislike:hover
+                {
+                    outline: 1px solid black;
+                }
+        .story_content
+        {
+            width: 90%;
+            font-size: 20px;
+            display: inline-block;
+            vertical-align: middle;
+            background-color: #ffffff;
+        }
+        .story_subreddit
+        {
+            padding-bottom: 20px;
+        }
+            .icon,
+            .comment_icon
+            {
+                display: inline-block;
+                background-image: url("../images/league.png");
+                background-size: 20px;
+                width: 20px;
+                height: 20px;
+            }
+            .a_style1
+            {
+                text-decoration: none;
+                color: #292828;
+            }
+            .a_style2
+            {
+                text-decoration: none;
+                color: gray;
+            }
+            .comment_icon
+            {
+                background-image: url("../images/comment.png");
+            }
+            .comment_share,
+            .story_buttons_text
+            {
+                display: inline-block;
+                color: gray;
+            }
+            .paragraf
+            {
+                font-size: 17px;
+                padding:20px;
+            }
+            .story_main
+            {
+                padding: 20px;
+            }
+            .image_setting
+            {
+                background-image: url("../images/covid.jpg");
+                background-size: cover;
+                width: 400px;
+                height: 400px;
+                margin: 20px;
+            }
+            .story_2_image
+            {
+                background-image: url("../images/funny.jpg");
+            }
+            .story_3_image
+            {
+                background-image: url("../images/funny2.jpg");
+            }
+            .story_4_image
+            {
+                background-image: url("../images/funny3.jpg");
+            }
+            .story_5_image
+            {
+                background-image: url("../images/funny4.jpg");
+                background-size: 600px;
+                background-position: center;
+            }
+/* ++++++++++++++++++++++++++++Body/ Main/ Trending boxes +++++++++++++++++++++++++++++++++++ */
+    .trending_boxes
+    {
+        font-size: 0;
+    }
+    .title1
+    {
+        font-size: 18px;
+        color: #1e1b1b;
+        font-weight: 600;
+        font-family: "Comic Sans MS";
+        line-height: 42px;
+    }
+    .big,
+    .medium
+    {
+        margin-top: 5px;
+        text-decoration: none;
+        color: white;
+        font-family: "Comic Sans MS";
+        font-size: 25px;
+        display: block;
+    }
+    .medium
+    {
+        margin-top: 25px;
+        font-size: 15px;
+    }
+        .trending_boxes > div
+        {
+            display: inline-block;
+            border-radius: 10px;
+            vertical-align: middle;
+            width: 25%;
+            padding: 0px;
+            outline: none;
+        }
+            .trending_box
+            {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                outline: 2px solid red;
+                width: 90%;
+                height: 180px;
+                margin: 0 auto;
+                font-size: 15px;
+                color: white;
+            }
+            .trending_pic_1
+            {
+                background-image: url("../images/trending1.jpg");
+            }
+            .trending_pic_2
+            {
+                background-image: url("../images/trending2.jpg");
+            }
+            .trending_pic_3
+            {
+                background-image: url("../images/trending3.jpg");
+            }
+            .trending_pic_4
+            {
+                background-image: url("../images/trending4.png");
+                background-position: right;
+                background-size: cover;
+            }
+    .content
+    {
+        font-size: 0;
+        position:relative;
+    }
+    .main_main
+    {
+        width: 55%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .premium,
+    .popular_communities,
+    .story,
+    .popular_menu,
+    .top_communities,
+    .details
+    {
+        outline: 1px solid #b3adad;
+    }
+    .premium:hover,
+    .popular_communities:hover,
+    .story:hover,
+    .popular_menu:hover,
+    .top_communities:hover,
+    .details:hover
+    {
+        outline: 1px solid #736f6f;
+    }
+    .popular_menu
+    {
+        background-color: #f3f3f3;
+    }
+    .popular_element
+    {
+        display: inline-block;
+        width:15%;
+    }
+    .popular_element:hover
+    {
+        outline: 2px solid #5e9dc5;
+    }
+    .popular_element:nth-child(-n+5)
+    {
+        margin-right: 1%;
+    }
+    .popular_element:last-child
+    {
+        margin-bottom: 5px;
+        margin-left: 5%;
+    }
+/* ++++++++++++++++++++++++++++ Body/ Main/ Main Side/  Top Communities +++++++++++++++++++++++++++++++++++ */
+        .main_side
+        {
+            font-size: 20px;
+            display: inline-block;
+            width: 45%;
+            position: absolute;
+            top:0;
+            right: 0;
+            height: 100%;
+        }
+        .top_communities
+        {
+            background-color: #ffffff;
+            text-align: center;
+            border: 1px solid #8c8787;
+            margin: 42px 0px 0px 20px;
+        }
+            .header_top_com
+            {
+                background-image: url("../images/banner-background.png");
+                background-repeat: repeat;
+            }
+                .header_top_com_text
+                {
+                    display: inline-block;
+                    margin-top: 60px;
+                    color:white;
+                }
+                    .a_text_top_com
+                    {
+                        text-decoration: none;
+                        color: #363232;
+                    }
+            .img_top,
+            .img_top_icon
+            {
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                background-image: url("../images/up-arrow.png");
+                background-size: 10px;
+            }
+            .img_top_icon
+            {
+                display: inline-block;
+                width: 16px;
+                width: 16px;
+                height: 16px;
+                background-image: url("../images/league.png");
+                background-size: 16px;
+            }
+            .view_all
+            {
+                margin-top: 5px;
+                display: inline-block;
+                width: 30%;
+                height: 23px;
+                text-align: center;
+                border-radius: 40px;
+                background-color: #0079d3;
+            }
+                .white_font
+                {
+                    color: white;
+                    text-decoration: none;
+                }
+            .main_top_com_elements
+            {
+                margin: 0px 0px 20px;
+                border-bottom: 1px solid #afacac;
+            }
+            .button a
+            {
+                text-decoration: none;
+                margin-top: 5px;
+                display: inline-block;
+                text-align: center;
+                border-radius: 40px;
+                background-color: #e3dcdc;
+                color: white;
+                padding: 0px 20px;
+                margin: 10px 0px;
+            }
+            .button
+            {
+                display: inline-block;
+                margin: 0px 5px;
+            }
+            .button a
+            {
+                color: #0f8dc4;
+            }
+/* ++++++++++++++++++++++++++++Body/ Main/ Main Side/  Top Communities +++++++++++++++++++++++++++++++++++ */
+    .premium
+    {
+        text-align: center;
+        font-size: 0px;
+        background-color: white;
+        margin: 20px 0px 0px 20px;
+    }
+        .premium_main
+        {
+            display: inline-block;
+            font-size: 0px;
+        }
+        .premium_main_custumize
+        {
+            vert-align: middle;
+            display: inline-block;
+        }
+            .premium_icon
+            {
+                background-image: url("../images/premium.png");
+                background-size: 50px;
+                width: 50px;
+                height: 50px;
+            }
+            .header_2
+            {
+                font-size: 25px;
+                font-family: "Comic Sans MS";
+                background-color: white;
+                display: inline-block;
+            }
+            .text_small
+            {
+                font-size: 15px;
+                margin-left: 1%;
+            }
+/* ++++++++++++++++++++++++++++Body/ Main/ Main Side/  Popular Communities +++++++++++++++++++++++++++++++++++ */
+        .popular_communities
+        {
+            font-size: 0px;
+            background-color: white;
+            margin: 20px 0px 0px 20px;
+        }
+            .popular_comunities_elements
+            {
+                width: 100%;
+                margin: 5px 0px;
+            }
+            .popular_comunities_element_text
+            {
+                display: inline-block;
+                vertical-align: middle;
+                width: 85%;
+                font-size: 20px;
+                font-family: "Comic Sans MS";
+                margin: 1% 0% 1% 5%;
+            }
+                .premium_icon,
+                .arrow_icon
+                {
+                    background-image: url("../images/premium.png");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 20px;
+                    width: 20px;
+                    height: 24px;
+                    display: inline-block;
+                }
+                .arrow_icon
+                {
+                    background-image: url("../images/arrow_right.png");
+                    width: 10%;
+                    vertical-align: middle;
+                }
+                .premium_icon
+                {
+                    width: 50px;
+                    background-size: 50px;
+                    height:80px;
+                }
+                .try_now
+                {
+                    margin: 0px 0px 10px 0px;
+                    display: inline-block;
+                    width: 50%;
+                    height: 23px;
+                    text-align: center;
+                    border-radius: 40px;
+                    background-color: #ee0606;
+                    font-size: 20px;
+                }
+/* ++++++++++++++++++++++++++++Body/ Main/ Main Side/  Popular Communities +++++++++++++++++++++++++++++++++++ */
+            .details
+            {
+                background-color: white;
+                margin: 20px 0px 0px 20px;
+                font-size: 0px;
+                position: sticky;
+                top:0px;
+            }
+            .details_right_side
+            {
+                display: inline-block;
+                font-size: 20px;
+                width: 45%;
+                margin: 1% 2.5%;
+                vertical-align: top;
+            }
+            .details_right_side a
+            {
+                text-decoration: none;
+                margin: 3% 0%;
+                display: block;
+                color:gray;
+            }
+            .details_left_side
+            {
+                display: inline-block;
+                font-size: 20px;
+                width: 45%;
+                margin: 1% 2.5%;
+            }
+            .details_left_side a
+            {
+                text-decoration: none;
+                margin: 2% 0%;
+                display: block;
+                color:gray;
+            }
+            .about_copyright
+            {
+                text-align: center;
+                font-size: 15px;
+            }
